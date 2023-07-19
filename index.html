@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Buscar ícones do site Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <!-- Cabeçalho -->
+    <header>
+        <a href="#" class="logo">My Shop</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- Menu de Navegação -->
+        <ul class="navbar">
+            <li><a href="#shop">Loja</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#faq">Faq</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+
+        <!-- ícones do site https://boxicons.com -->
+        <div class="icons">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bxs-user-circle'></i></a>
+            <a href="#"><i class='bx bxs-shopping-bag'></i></a>
+        </div>
+    </header>
+
+    <!-- Loja - Produtos -->
+    <section class="shop" id="shop">
+        <div class="container">
+            <!-- Produto 1 -->
+            <div class="box">
+                <img src="imagens/xbox-x.png" alt="Xbox Series X">
+                <h4>Xbox Series X</h4>
+                
+                <h5>R$ 4.499,95</h5>
+
+                <div class="cart">
+                <a href="#">
+                    <i class='bx bxs-cart'></i>
+                </a>
+                </div>
+            </div>
+             <!-- Produto 2 -->
+            <div class="box">
+                <img src="imagens/ps5.png" alt="Playstation 5">
+                <h4>Playstation 5 c/ Leitor</h4>
+                
+                <h5>R$ 4.699,98</h5>
+
+                <div class="cart">
+                <a href="#">
+                    <i class='bx bxs-cart'></i>
+                </a>
+                </div>
+            </div>
+
+             <!-- Produto 3 -->
+            <div class="box">
+                <img src="imagens/nitendo-switch.png" alt="Nintendo Switch">
+                <h4>Nintendo Switch Oled</h4>
+                
+                <h5>R$ 2.370,50</h5>
+
+                <div class="cart">
+                <a href="#">
+                    <i class='bx bxs-cart'></i>
+                </a>
+                </div>
+            </div>
+
+             <!-- Produto 4 -->
+            <div class="box">
+                <img src="imagens/notebook-alienware.png" alt="Notebook Alienware">
+                <h4>Notebook Alienware m15 R7</h4>
+                
+                <h5>R$ 14.399,95</h5>
+
+                <div class="cart">
+                <a href="#">
+                    <i class='bx bxs-cart'></i>
+                </a>
+                </div>
+            </div>
+
+             <!-- Produto 5 -->
+
+            <div class="box">
+                <img src="imagens/mac-book-pro.png" alt="Mac Book">
+                <h4>Final Fantasy XVI - Playstation 5</h4>
+                
+                <h5>R$ 259,99</h5>
+
+                <div class="cart">
+                <a href="#">
+                    <i class='bx bxs-cart'></i>
+                </a>
+                </div>
+            </div>
+
+             <!-- Produto 6 -->
+
+             <div class="box">
+                <img src="imagens/notebook-asus.png" alt="Notebook Asus">
+                <h4>Notebook Asus</h4>
+                
+                <h5>R$ 7.675,96</h5>
+
+                <div class="cart">
+                <a href="#">
+                    <i class='bx bxs-cart'></i>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <div class="about" id="about">
+        <div class="about-content">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+    <!-- Seção Contato -->
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <div class="contact-content">
+                <li><a href="#shop">Loja</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#faq">Faq</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </div>
+            <!-- Transporte, política e pagamentos -->
+            <div class="contact-content">
+                <li><a href="#">Transporte e devolução</a></li>
+                <li><a href="#">Nossa política</a></li>
+                <li><a href="#">Formas de pagamento</a></li>
+        </div>
+
+        <!-- Telefone -->
+        <div class="contact-content">
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Fone: 11 1234-5678</a></li>
+        </div>
+
+        <!-- Redes Sociais -->
+        <div class="contact-content">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </div>
+        </div>
+        <!-- Formulário -->
+        <div class="action">
+            <form action="">
+                <input type="email" name="email" placeholder="Seu email" required>
+                <input type="submit" name="submit" value="Enviar" required>
+            </form>
+        </div>
+
+        <!-- Direitos -->
+        <div class="last">
+            <p>2023 - Produzido por lorem ipsum</p>
+
+        </div>
+        <!-- Função para o menu Toggle (Hamburguer) -->
+        <script src="main.js"></script>
+    </section>
+</body>
+</html>
